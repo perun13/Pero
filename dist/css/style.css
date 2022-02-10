@@ -635,6 +635,7 @@ header {
   background: url(../../img/forest.jpg) no-repeat;
   height: 640px;
   margin-top: 150px;
+  background-size: 100%;
 }
 
 .box_6_text {
