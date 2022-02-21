@@ -115,6 +115,10 @@ header h1 {
   margin-top: 59px;
 }
 
+.nav_burger {
+  display: none;
+}
+
 .logo_menu {
   max-width: 1120px;
   margin: 0 auto;
@@ -187,6 +191,14 @@ header h1 {
   margin: 0 auto;
   padding-top: 40px;
   border-bottom: solid #D4D4D4;
+}
+
+.box_1 .line_1 a {
+  font-family: 'Montserrat';
+  font-size: 14px;
+  font-weight: 500;
+  margin-right: 18px;
+  color: #282828;
 }
 
 .box_1 .line_1 h2 {
@@ -854,29 +866,27 @@ footer a {
   }
   .nav_burger {
     position: fixed;
+    height: inherit;
     top: 0;
     left: 0;
     width: 768px;
-    height: 100%;
     z-index: 1;
     -webkit-transform: translate(-100%, 0px);
             transform: translate(-100%, 0px);
     background-color: black;
-    padding: 100px 30px 30px 30px;
+    padding: 100px 30px 90px 30px;
     -webkit-transition: left 0.3s ease 0s;
     transition: left 0.3s ease 0s;
     overflow: auto;
     display: -ms-grid;
     display: grid;
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
     justify-items: center;
-    -ms-flex-line-pack: stretch;
-        align-content: stretch;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: start;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
   }
   .nav_burger._active {
     -webkit-transform: translate(0%, 0px);
