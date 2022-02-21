@@ -834,6 +834,7 @@ footer a {
     top: 15%;
     color: white;
     font-weight: 700;
+    margin-bottom: -200px;
   }
   .header_burger {
     display: block;

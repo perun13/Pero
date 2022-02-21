@@ -869,6 +869,7 @@ footer a {
     color: white;
     font-weight: 700;
     position: absolute;
+    margin-bottom: -200px;
   }
   .nav_list_burger_1 {
     font-size: 34px;
@@ -924,29 +925,27 @@ footer a {
   }
   .nav_burger {
     position: fixed;
+    height: inherit;
     top: 0;
     left: 0;
     width: 768px;
-    height: 100%;
     z-index: 1;
     -webkit-transform: translate(-100%, 0px);
             transform: translate(-100%, 0px);
     background-color: black;
-    padding: 100px 30px 30px 30px;
+    padding: 100px 30px 90px 30px;
     -webkit-transition: left 0.3s ease 0s;
     transition: left 0.3s ease 0s;
     overflow: auto;
     display: -ms-grid;
     display: grid;
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
     justify-items: center;
-    -ms-flex-line-pack: stretch;
-        align-content: stretch;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: start;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
   }
   .nav_burger._active {
     -webkit-transform: translate(0%, 0px);
