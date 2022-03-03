@@ -535,6 +535,7 @@ header {
 }
 
 .box_4_photo {
+  max-height: 568px;
   max-width: 1425px;
   margin: 0 auto;
   display: -webkit-box;
@@ -865,34 +866,29 @@ footer a {
   }
   .nav_list_burger {
     font-size: 34px;
-    top: 15%;
     color: white;
     font-weight: 700;
-    position: absolute;
-    margin-bottom: -200px;
+    position: relative;
   }
   .nav_list_burger_1 {
     font-size: 34px;
-    top: 5%;
     color: white;
     font-weight: 700;
-    position: absolute;
+    position: relative;
   }
   .nav_list_burger_2 {
     margin-top: 30px;
     font-size: 34px;
-    top: 10%;
     color: white;
     font-weight: 700;
-    position: absolute;
+    position: relative;
   }
   .nav_list_burger_3 {
     margin-top: 60px;
     font-size: 34px;
-    top: 15%;
     color: white;
     font-weight: 700;
-    position: absolute;
+    position: relative;
   }
   .header_burger {
     display: block;
@@ -924,8 +920,8 @@ footer a {
     height: 4px;
   }
   .nav_burger {
-    position: fixed;
-    height: inherit;
+    position: absolute;
+    height: 100%;
     top: 0;
     left: 0;
     width: 768px;

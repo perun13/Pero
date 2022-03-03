@@ -831,10 +831,29 @@ footer a {
   }
   .nav_list_burger {
     font-size: 34px;
-    top: 15%;
     color: white;
     font-weight: 700;
-    margin-bottom: -200px;
+    position: relative;
+  }
+  .nav_list_burger_1 {
+    font-size: 34px;
+    color: white;
+    font-weight: 700;
+    position: relative;
+  }
+  .nav_list_burger_2 {
+    margin-top: 30px;
+    font-size: 34px;
+    color: white;
+    font-weight: 700;
+    position: relative;
+  }
+  .nav_list_burger_3 {
+    margin-top: 60px;
+    font-size: 34px;
+    color: white;
+    font-weight: 700;
+    position: relative;
   }
   .header_burger {
     display: block;
@@ -866,8 +885,8 @@ footer a {
     height: 4px;
   }
   .nav_burger {
-    position: fixed;
-    height: inherit;
+    position: absolute;
+    height: 100%;
     top: 0;
     left: 0;
     width: 768px;
